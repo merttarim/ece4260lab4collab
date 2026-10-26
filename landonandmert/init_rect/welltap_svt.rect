@@ -1,0 +1,7 @@
+bbox 0 0 16 45
+inrect GND m1 8 9 11 12
+inrect Vdd m1 8 33 11 36
+rect GND ppdiff 8 10 11 13
+rect Vdd nndiff 8 24 11 27
+rect # pwell 5 7 14 18
+rect # nwell 5 18 14 30
