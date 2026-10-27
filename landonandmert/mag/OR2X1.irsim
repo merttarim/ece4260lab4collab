@@ -1,0 +1,14 @@
+ana A B Y
+h Vdd
+l GND
+h A
+h B
+s
+l A
+s
+l B
+s
+h A
+s
+h B
+s
