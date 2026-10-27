@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1793069881
+timestamp 1793072416
 << nwell >>
 rect 2 14 47 50
 << pwell >>
@@ -104,6 +104,7 @@ rlabel ndiffusion 26 -5 26 -5 3 GND
 rlabel polysilicon 33 0 33 0 3 _Y
 rlabel ndcontact 9 -5 9 -5 3 GND
 rlabel metal1 3 -3 3 -3 3 Y
+port 6 e default output
 rlabel pdcontact 37 26 37 26 1 Y
 rlabel ndcontact 37 -3 37 -3 1 Y
 << end >>
