@@ -1,0 +1,23 @@
+h Vdd
+l GND
+l A
+s
+assert Y 0
+assert _Y 1
+h A
+s
+assert Y 1
+assert _Y 0
+l A
+s
+assert Y 0
+assert _Y 1
+h A
+s
+assert Y 1
+assert _Y 0
+s 100
+assert Y 1
+assert _Y 0
+d Vdd GND A _Y Y
+inputs

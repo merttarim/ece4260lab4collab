@@ -1,0 +1,15 @@
+h Vdd
+l GND
+l x
+s
+x x
+s
+assert x 1
+assert Y 0
+s
+s
+s
+assert x 1
+assert Y 0
+d Vdd GND x Y
+inputs

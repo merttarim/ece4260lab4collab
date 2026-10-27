@@ -1,0 +1,34 @@
+timestamp 1793062413
+version 8.3
+tech scmos
+style TSMC0.18um(tsmc18)from:t24i
+scale 1000 1 9
+resistclasses 6900 7800 946000 946000 1 8000 8000 80 80 80 80 80 40
+port "Y" 2 25 5 25 5 m1
+port "GND" 1 25 37 25 37 v1
+port "Vdd" 3 9 37 9 37 v1
+node "Y" 10 -8.88178e-15 25 5 m1 35 24 0 0 0 0 0 0 0 0 0 0 0 0 48 32 0 0 0 0 0 0 0 0 0 0
+equiv "Y" "Y"
+node "GND" 11 18.101 25 37 v1 35 24 0 0 0 0 0 0 0 0 0 0 0 0 100 60 210 94 0 0 0 0 0 0 0 0
+equiv "GND" "GND"
+equiv "GND" "GND"
+node "Vdd" 15 18.101 9 37 v1 0 0 65 34 0 0 0 0 0 0 0 0 0 0 74 44 25 20 0 0 0 0 0 0 0 0
+equiv "Vdd" "Vdd"
+equiv "Vdd" "Vdd"
+node "x" 161 61.118 14 2 p 0 0 70 36 0 0 0 0 0 0 135 104 0 0 103 58 0 0 0 0 0 0 0 0 0 0
+equiv "x" "x"
+node "w_1_n2#" 0 0 1 -2 pw 0 0 0 0 0 0 0 0 504 92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_1_16#" 1247 371.954 1 16 nw 0 0 0 0 638 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "GND" "w_1_16#" 69.352
+cap "x" "w_1_16#" 169.14
+cap "Vdd" "w_1_16#" 40.321
+cap "GND" "w_1_n2#" 38.979
+cap "x" "w_1_n2#" 130.378
+cap "Y" "w_1_n2#" 40.528
+cap "x" "GND" 80.492
+cap "Y" "GND" 38.4783
+cap "Y" "x" 9.2348
+cap "GND" "Vdd" 57.7175
+cap "x" "Vdd" 23.087
+fet nfet 14 5 15 6 10 14 "w_1_n2#" "x" 4 0 "GND" 5 0 "Y" 5 0
+fet pfet 14 22 15 23 20 24 "w_1_16#" "x" 4 0 "Vdd" 10 0 "x" 10 0
