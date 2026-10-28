@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1793072878
+timestamp 1793157723
 << nwell >>
 rect 2 14 47 50
 << pwell >>
@@ -76,12 +76,11 @@ rect 38 -17 41 -6
 rect 2 -20 41 -17
 << m2contact >>
 rect 23 51 28 56
-rect 32 51 37 56
 rect 8 16 13 21
 rect 8 2 13 7
 rect 26 -14 31 -9
 << metal2 >>
-rect 37 51 47 55
+rect 32 51 47 55
 rect 9 7 13 16
 rect 43 -9 47 51
 rect 31 -13 47 -9
@@ -89,8 +88,6 @@ rect 31 -13 47 -9
 rlabel polysilicon 33 22 33 22 3 _Y
 rlabel pdiffusion 26 25 26 25 3 Vdd
 rlabel polysilicon 15 22 15 22 3 B
-rlabel m2contact 33 52 33 52 3 GND
-port 1 e
 rlabel metal1 9 52 9 52 3 A
 port 5 e
 rlabel polycontact 17 52 17 52 3 B
@@ -107,5 +104,7 @@ port 6 e default output
 rlabel pdcontact 37 26 37 26 1 Y
 rlabel ndcontact 37 -3 37 -3 1 Y
 rlabel m2contact 24 52 24 52 3 Vdd
-port 2 e
+port 2 e power input
+rlabel metal2 32 51 35 54 0 GND
+port 7 nsew ground input
 << end >>

@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1793071097
+timestamp 1793156127
 << nwell >>
 rect 2 27 46 49
 << pwell >>
@@ -23,11 +23,12 @@ rect 31 11 32 16
 rect 34 15 35 20
 rect 34 11 40 15
 << pdiffusion >>
-rect 8 33 14 43
-rect 16 39 23 43
-rect 16 34 17 39
-rect 22 34 23 39
-rect 16 33 23 34
+rect 8 40 14 43
+rect 13 35 14 40
+rect 8 33 14 35
+rect 16 38 23 43
+rect 16 33 17 38
+rect 22 33 23 38
 rect 25 38 26 43
 rect 31 38 32 43
 rect 25 33 32 38
@@ -38,12 +39,14 @@ rect 8 15 13 20
 rect 26 11 31 16
 rect 35 15 40 20
 << pdcontact >>
-rect 17 34 22 39
+rect 8 35 13 40
+rect 17 33 22 38
 rect 26 38 31 43
 rect 35 33 40 38
 << polysilicon >>
-rect 14 43 16 46
-rect 23 43 25 46
+rect 13 47 16 49
+rect 14 43 16 47
+rect 23 43 25 47
 rect 32 43 34 46
 rect 14 21 16 33
 rect 23 21 25 33
@@ -53,31 +56,37 @@ rect 14 8 16 11
 rect 23 8 25 11
 rect 32 8 34 11
 << polycontact >>
+rect 8 47 13 52
+rect 22 47 27 52
 rect 30 24 35 29
 << polynplus >>
 rect 14 20 16 21
 rect 23 20 25 21
 rect 32 20 34 21
 << metal1 >>
-rect 8 49 23 52
-rect 28 49 29 52
-rect 8 38 11 49
-rect 26 43 29 49
-rect 17 29 20 34
+rect 8 52 12 54
+rect 16 52 25 54
+rect 16 51 22 52
+rect 10 43 29 44
+rect 10 41 26 43
+rect 10 40 13 41
 rect 40 33 41 36
+rect 17 29 20 33
 rect 8 26 30 29
 rect 8 20 11 26
-rect 38 20 41 33
+rect 38 27 41 33
+rect 38 24 43 27
+rect 38 20 41 24
 rect 40 16 41 20
 rect 26 8 29 11
 rect 26 5 34 8
 << m2contact >>
-rect 23 49 28 54
-rect 32 49 37 54
+rect 25 33 30 38
 rect 34 5 39 10
 << metal2 >>
-rect 37 49 38 54
-rect 34 10 38 49
+rect 32 51 38 55
+rect 25 24 30 33
+rect 34 10 38 51
 << labels >>
 rlabel ndiffusion 35 17 35 17 3 Y
 rlabel polysilicon 33 22 33 22 3 _Y
@@ -87,11 +96,19 @@ rlabel ndiffusion 26 12 26 12 3 GND
 rlabel pdiffusion 26 34 26 34 3 Vdd
 rlabel pdiffusion 17 34 17 34 3 _Y
 rlabel pdiffusion 9 34 9 34 3 Vdd
-rlabel polysilicon 14 44 16 46 1 A
-rlabel polysilicon 23 44 25 46 1 B
-rlabel metal1 38 22 41 27 1 Y
-rlabel m2contact 24 51 27 54 5 Vdd
-rlabel m2contact 32 51 35 54 5 GND
+rlabel metal1 40 24 43 27 0 Y
+port 1 nsew default output
+rlabel metal2 26 24 29 27 0 Vdd
+port 2 nsew power input
+rlabel metal2 32 51 35 54 0 GND
+port 3 nsew ground input
+rlabel ndiffusion 9 14 9 14 3 _Y
+rlabel polysilicon 15 30 15 30 1 B
+rlabel polysilicon 24 30 24 30 1 A
+rlabel metal1 8 51 11 54 0 B
+port 5 nsew default input
+rlabel metal1 16 51 19 54 0 A
+port 4 nsew default input
 << properties >>
 string LEFclass CORE
 string LEFsite CoreSite

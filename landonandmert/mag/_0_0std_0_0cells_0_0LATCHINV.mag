@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1793073096
+timestamp 1793157808
 << nwell >>
 rect 2 22 86 59
 << pwell >>
@@ -80,7 +80,9 @@ rect 43 29 45 33
 rect 23 12 25 24
 rect 43 12 45 24
 rect 52 12 54 33
-rect 72 12 74 33
+rect 72 25 74 33
+rect 72 20 73 25
+rect 72 12 74 20
 rect 14 -1 16 2
 rect 23 -1 25 2
 rect 43 -1 45 2
@@ -91,6 +93,7 @@ rect 14 57 19 62
 rect 49 47 54 52
 rect 22 24 27 29
 rect 40 24 45 29
+rect 73 20 78 25
 << metal1 >>
 rect 8 66 67 69
 rect 2 29 5 63
@@ -101,16 +104,22 @@ rect 28 53 31 56
 rect 18 46 21 49
 rect 42 52 45 63
 rect 42 49 49 52
-rect 57 43 60 58
+rect 57 43 60 55
 rect 64 56 67 66
 rect 64 53 69 56
 rect 42 33 45 36
-rect 77 30 80 33
+rect 50 35 51 36
+rect 50 34 53 35
+rect 50 33 54 34
+rect 66 33 75 36
+rect 48 32 69 33
+rect 50 31 69 32
+rect 51 30 69 31
 rect 2 26 22 29
 rect 27 26 40 29
-rect 66 27 80 30
+rect 42 17 55 20
 rect 37 12 40 15
-rect 66 12 69 27
+rect 66 12 69 30
 rect 1 -5 5 -1
 rect 10 -2 13 2
 rect 47 -1 51 2
@@ -119,27 +128,30 @@ rect 10 -5 46 -2
 << m2contact >>
 rect 17 49 22 54
 rect 31 53 36 58
-rect 55 58 60 63
+rect 55 55 60 60
 rect 45 33 50 38
 rect 37 15 42 20
+rect 55 16 60 21
+rect 73 15 78 20
 rect 0 -1 5 4
 rect 26 2 31 7
 rect 46 -6 51 -1
 << metal2 >>
-rect 18 63 59 66
-rect 18 62 55 63
+rect 18 62 59 66
 rect 18 54 22 62
-rect 64 60 76 64
+rect 55 60 59 62
+rect 68 60 86 64
 rect 36 53 37 57
 rect 31 21 35 53
 rect 31 20 41 21
 rect 31 17 37 20
 rect 46 7 50 33
+rect 60 16 73 20
 rect 5 2 26 3
 rect 31 3 50 7
 rect 5 -1 31 2
-rect 64 -1 68 60
-rect 51 -5 68 -1
+rect 82 -1 86 60
+rect 51 -5 86 -1
 << labels >>
 rlabel pdiffusion 26 34 26 34 3 _clk
 rlabel polysilicon 24 31 24 31 3 CLK
@@ -147,21 +159,19 @@ rlabel pdiffusion 17 34 17 34 3 Vdd
 rlabel polysilicon 15 31 15 31 3 D
 rlabel pdiffusion 9 34 9 34 3 #7
 rlabel metal1 25 61 25 61 3 D
-port 4 e
+port 4 e default input
 rlabel ndiffusion 26 3 26 3 3 _q
 rlabel polysilicon 24 13 24 13 3 CLK
 rlabel polysilicon 15 13 15 13 3 D
 rlabel ndcontact 9 3 9 3 3 GND
 rlabel metal1 3 61 3 61 3 CLK
-port 6 e
+port 6 e default input
 rlabel pdiffusion 55 34 55 34 3 Vdd
 rlabel polysilicon 53 31 53 31 3 q
 rlabel polysilicon 44 31 44 31 3 CLK
 rlabel pdcontact 38 34 38 34 3 _q
-rlabel m2contact 59 61 59 61 3 Vdd
-port 2 e
 rlabel metal1 43 61 43 61 3 q
-port 3 e
+port 3 e default input
 rlabel ndiffusion 55 3 55 3 3 #10
 rlabel polysilicon 53 13 53 13 3 q
 rlabel polysilicon 44 13 44 13 3 CLK
@@ -177,4 +187,6 @@ rlabel metal1 2 -4 2 -4 2 _q
 port 7 ne default output
 rlabel metal2 74 62 74 62 1 GND
 port 8 n ground input
+rlabel metal2 57 62 57 62 1 Vdd
+port 9 n power input
 << end >>
