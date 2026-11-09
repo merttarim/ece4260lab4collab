@@ -1,0 +1,221 @@
+magic
+tech scmos
+timestamp 1793230738
+<< nwell >>
+rect -8 28 86 60
+<< pwell >>
+rect -8 5 86 27
+<< ntransistor >>
+rect 9 11 11 21
+rect 19 11 21 21
+rect 41 16 43 21
+rect 51 11 53 21
+rect 72 11 74 21
+<< ptransistor >>
+rect 9 34 11 54
+rect 19 34 21 44
+rect 41 34 43 54
+rect 51 34 53 54
+rect 72 34 74 54
+<< ndiffusion >>
+rect 1 20 9 21
+rect 1 15 2 20
+rect 7 15 9 20
+rect 1 11 9 15
+rect 11 11 19 21
+rect 21 18 27 21
+rect 21 13 22 18
+rect 40 16 41 21
+rect 43 16 44 21
+rect 49 16 51 21
+rect 21 11 27 13
+rect 47 11 51 16
+rect 53 19 59 21
+rect 53 14 54 19
+rect 53 11 59 14
+rect 65 19 72 21
+rect 65 14 66 19
+rect 71 14 72 19
+rect 65 11 72 14
+rect 74 19 80 21
+rect 74 14 75 19
+rect 74 11 80 14
+<< pdiffusion >>
+rect 1 48 9 54
+rect 1 42 2 48
+rect 8 42 9 48
+rect 1 34 9 42
+rect 11 44 15 54
+rect 35 44 41 54
+rect 11 41 19 44
+rect 11 36 13 41
+rect 18 36 19 41
+rect 11 34 19 36
+rect 21 41 29 44
+rect 21 36 23 41
+rect 28 36 29 41
+rect 21 34 29 36
+rect 40 39 41 44
+rect 35 34 41 39
+rect 43 34 51 54
+rect 53 52 61 54
+rect 53 47 55 52
+rect 60 47 61 52
+rect 53 46 61 47
+rect 53 34 57 46
+rect 67 41 72 54
+rect 63 40 72 41
+rect 63 35 66 40
+rect 71 35 72 40
+rect 63 34 72 35
+rect 74 47 80 54
+rect 74 42 75 47
+rect 74 34 80 42
+<< ndcontact >>
+rect 2 15 7 20
+rect 22 13 27 18
+rect 35 16 40 21
+rect 44 16 49 21
+rect 54 14 59 19
+rect 66 14 71 19
+rect 75 14 80 19
+<< pdcontact >>
+rect 2 42 8 48
+rect 13 36 18 41
+rect 23 36 28 41
+rect 35 39 40 44
+rect 55 47 60 52
+rect 66 35 71 40
+rect 75 42 80 47
+<< polysilicon >>
+rect 9 54 11 59
+rect 41 54 43 60
+rect 51 54 53 58
+rect 72 54 74 57
+rect 19 49 25 51
+rect 19 44 21 49
+rect 9 21 11 34
+rect 19 21 21 34
+rect 41 21 43 34
+rect 51 21 53 34
+rect 72 30 74 34
+rect 72 21 74 25
+rect 41 13 43 16
+rect 9 8 11 11
+rect 19 8 21 11
+rect 51 8 53 11
+rect 72 8 74 11
+<< polycontact >>
+rect 6 59 11 64
+rect 39 60 44 65
+rect 20 51 25 56
+rect 49 58 54 63
+rect 71 25 76 30
+<< metal1 >>
+rect -1 48 3 82
+rect -1 42 2 48
+rect 14 41 17 74
+rect 24 60 27 66
+rect 31 61 39 64
+rect 31 56 34 61
+rect 50 63 53 66
+rect 25 53 34 56
+rect 57 52 60 73
+rect 37 44 40 49
+rect 66 40 69 81
+rect 72 60 75 68
+rect 83 46 86 51
+rect 80 43 86 46
+rect 23 27 28 36
+rect 83 39 86 43
+rect 68 26 71 29
+rect 35 21 40 22
+rect -1 2 2 20
+rect 27 13 32 16
+rect 8 10 11 12
+rect 29 10 32 13
+rect 8 7 32 10
+rect 29 -7 32 7
+rect 44 2 49 16
+rect 55 11 58 14
+rect 68 -7 71 14
+rect 76 11 79 14
+rect 89 3 93 68
+rect 99 -7 102 34
+<< m2contact >>
+rect -1 82 5 88
+rect 66 81 72 88
+rect 12 74 17 79
+rect 57 73 62 79
+rect 23 66 28 71
+rect 48 66 53 71
+rect 37 49 43 55
+rect 72 68 77 73
+rect 88 68 93 73
+rect 81 51 86 56
+rect 81 34 86 39
+rect 23 22 28 27
+rect 35 22 40 27
+rect 63 25 68 30
+rect -1 -3 4 2
+rect 55 6 60 11
+rect 44 -3 49 2
+rect 75 6 80 11
+rect 97 34 102 39
+rect 87 -3 93 3
+rect 29 -12 34 -7
+rect 68 -12 73 -7
+rect 97 -12 102 -7
+<< metal2 >>
+rect 5 83 66 88
+rect 17 75 57 79
+rect 28 67 48 71
+rect 77 69 88 73
+rect 43 51 81 55
+rect 86 35 97 39
+rect 35 27 63 30
+rect 28 22 35 27
+rect 40 25 63 27
+rect 60 7 75 11
+rect 4 -3 44 2
+rect 49 -3 87 2
+rect 34 -12 68 -8
+rect 73 -12 97 -8
+<< labels >>
+rlabel ndiffusion 54 12 54 12 3 #10
+rlabel polysilicon 52 22 52 22 3 B
+rlabel ndiffusion 44 17 44 17 3 GND
+rlabel polysilicon 42 22 42 22 3 S
+rlabel ndcontact 36 17 36 17 3 _S
+rlabel ndiffusion 5 12 5 12 3 GND
+rlabel polysilicon 20 22 20 22 3 S
+rlabel ndiffusion 22 12 22 12 3 Y
+rlabel polysilicon 52 32 52 32 3 B
+rlabel pdiffusion 54 35 54 35 3 Vdd
+rlabel polysilicon 42 32 42 32 3 S
+rlabel pdiffusion 36 35 36 35 3 Y
+rlabel metal1 73 62 73 62 3 GND
+port 1 e
+rlabel pdiffusion 5 35 5 35 3 #5
+rlabel pdiffusion 13 35 13 35 3 Vdd
+rlabel polysilicon 20 32 20 32 3 S
+rlabel pdiffusion 22 35 22 35 3 _S
+rlabel polycontact 41 62 41 62 3 S
+port 3 e
+rlabel metal1 25 62 25 62 3 B
+port 4 e
+rlabel metal1 58 62 58 62 3 Vdd
+port 2 e
+rlabel metal1 9 10 9 10 3 Y
+port 5 e
+rlabel polysilicon 73 32 73 32 3 _S
+rlabel polysilicon 73 22 73 22 3 _S
+rlabel pdiffusion 76 35 76 35 3 Y
+rlabel polycontact 7 62 7 62 3 A
+port 6 e
+rlabel polysilicon 10 32 10 32 3 A
+rlabel polysilicon 10 22 10 22 3 A
+rlabel pdiffusion 63 35 63 35 3 #5
+rlabel ndiffusion 66 12 66 12 3 Y
+rlabel ndiffusion 75 12 75 12 3 #10
+<< end >>
